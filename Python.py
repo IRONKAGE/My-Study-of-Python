@@ -1153,7 +1153,6 @@
 
 
     # Д/З №2 - Збережені улюблені речі
-
 # import pickle
 # Улюблені_речі = {
     # 'Планшети': ['Surface Pro 2017', 'iPad Pro 12" 2018', 'Galaxy Tab S6'],
@@ -1167,3 +1166,42 @@
 # Завантажені_дані_улюбленного = pickle.load(Збережений_файл)
 # Збережений_файл.close
 # print(Завантажені_дані_улюбленного)
+
+
+                        # №11 - І знову малювання ''ЧЕРЕПАХОЮ''
+
+
+# import turtle
+# t = turtle.Pen()
+# t.forward(50)
+# t.left(90)
+# t.forward(50)
+# t.left(90)
+# t.forward(50)
+# t.left(90)
+# t.forward(50)
+# t.reset()
+# for x in range(1, 5):
+    # t.forward(50)
+    # t.left(90)
+
+# import turtle
+# t = turtle.Pen()
+# for x in range(1, 9):
+#     t.forward(100)
+#     t.left(225)
+# t.reset()
+# for x in range(1, 38):
+#     t.forward(100)
+#     t.left(175)
+# t.reset()
+# for x in range(1, 20):
+#     t.forward(100)
+#     t.left(95)
+# t.reset()
+# for x in range(1, 19):
+#     t.forward(100)
+#     if x % 2 == 0:
+#         t.left(175)
+#     else:
+#         t.left(225)
