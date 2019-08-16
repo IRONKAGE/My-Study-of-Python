@@ -1188,20 +1188,201 @@
 # import turtle
 # t = turtle.Pen()
 # for x in range(1, 9):
-#     t.forward(100)
-#     t.left(225)
+    # t.forward(100)
+    # t.left(225)
 # t.reset()
 # for x in range(1, 38):
-#     t.forward(100)
-#     t.left(175)
+    # t.forward(100)
+    # t.left(175)
 # t.reset()
 # for x in range(1, 20):
-#     t.forward(100)
-#     t.left(95)
+    # t.forward(100)
+    # t.left(95)
 # t.reset()
 # for x in range(1, 19):
-#     t.forward(100)
-#     if x % 2 == 0:
-#         t.left(175)
-#     else:
-#         t.left(225)
+    # t.forward(100)
+    # if x % 2 == 0:
+        # t.left(175)
+    # else:
+        # t.left(225)
+
+# import turtle
+# import time
+# t = turtle.Pen()
+# t.color(1, 0, 0)
+# t.begin_fill()
+# t.forward(100)
+# t.left(90)
+# t.forward(20)
+# t.left(90)
+# t.forward(20)
+# t.right(90)
+# t.forward(20)
+# t.left(90)
+# t.forward(60)
+# t.left(90)
+# t.forward(20)
+# t.right(90)
+# t.forward(20)
+# t.left(90)
+# t.forward(20)
+# t.end_fill()
+# t.color(0, 0, 0)
+# t.up()
+# t.forward(10)
+# t.down()
+# t.begin_fill()
+# t.circle(10)
+# t.end_fill()
+# t.setheading(0)
+# t.up()
+# t.forward(90)
+# t.right(90)
+# t.forward(10)
+# t.setheading(0)
+# t.begin_fill()
+# t.down()
+# t.circle(10)
+# t.end_fill()
+# time.sleep(15)
+
+# import turtle
+# import time
+# t = turtle.Pen()
+# t.color(1, 1, 0)
+# t.begin_fill()
+# t.circle(50)
+# t.end_fill()
+# time.sleep(5)
+
+# import turtle
+# import time
+# t = turtle.Pen()
+# def Моє_коло(червоний, зелений, синій):
+    # t.color(червоний, зелений, синій)
+    # t.begin_fill()
+    # t.circle(50)
+    # t.end_fill()
+# Моє_коло(0, 1, 0)
+# Моє_коло(0, 0.5, 0)
+# Моє_коло(1, 0, 0)
+# Моє_коло(0.5, 0, 0)
+# Моє_коло(0, 0, 1)
+# Моє_коло(0, 0, 0.5)
+# Моє_коло(0.9, 0.75, 0)
+# Моє_коло(1, 0.7, 0.75)
+# Моє_коло(1, 0.5, 0)
+# Моє_коло(0.9, 0.5, 0.15)
+# Моє_коло(0, 0, 0)
+# Моє_коло(1, 1, 1)
+# time.sleep(5)
+
+# import turtle
+# import time
+# t = turtle.Pen()
+# def Мій_квадрат(сторона):
+    # for x in range(1, 5):
+        # t.forward(сторона)
+        # t.left(90)
+# Мій_квадрат(50)
+# t.reset()
+# Мій_квадрат(25)
+# Мій_квадрат(50)
+# Мій_квадрат(75)
+# Мій_квадрат(100)
+# Мій_квадрат(125)
+# time.sleep(5)
+
+# t.reset()
+# t.begin_fill()
+# Мій_квадрат(50)
+# t.end_fill()
+# t.reset()
+# import turtle
+# import time
+# t = turtle.Pen()
+# def Мій_квадрат(сторона, заповнити):
+    # if заповнити == True:
+        # t.begin_fill()
+    # for x in range(1, 5):
+        # t.forward(сторона)
+        # t.left(90)
+    # if заповнити == True:
+        # t.end_fill()
+# Мій_квадрат(50, True)
+# Мій_квадрат(150, False)
+# time.sleep(5)
+
+# import turtle
+# import time
+# t = turtle.Pen()
+# for x in range(1, 19):
+    # t.forward(100)
+    # if x % 2 == 0:
+        # t.left(175)
+    # else:
+        # t.left(225)
+# t.reset()
+# def Моя_зірка(промінь, заповнити):
+    # if заповнити == True:
+        # t.begin_fill()
+    # for x in range(1, 19):
+        # t.forward(промінь)
+        # if x % 2 == 0:
+            # t.left(175)
+        # else:
+            # t.left(225)
+    # if заповнити == True:
+        # t.end_fill()
+# t.color(0.9, 0.75, 0)
+# Моя_зірка(120, True)
+# t.color(0, 0, 0)
+# Моя_зірка(120, False)
+# time.sleep(5)
+
+
+    # Д/З №1 - Малювання восьмикутника
+# import turtle
+# import time
+# t = turtle.Pen()
+# def Мій_восьмикутник(сторона):
+    # for x in range(1, 9):
+        # t.forward(сторона)
+        # t.left(45)
+# Мій_восьмикутник(50)
+# time.sleep(5)
+
+
+    # Д/З №2 - Малювання зафарбованого восьмикутника
+# import turtle
+# import time
+# t = turtle.Pen()
+# def Мій_восьмикутник(сторона, заповнити):
+    # if заповнити == True:
+        # t.begin_fill()
+    # for x in range(1, 9):
+        # t.forward(сторона)
+        # t.left(45)
+    # if заповнити == True:
+        # t.end_fill()
+# t.color(0.7, 0.7, 0.7)
+# Мій_восьмикутник(50, True)
+# t.color(1, 0, 0)
+# Мій_восьмикутник(50, False)
+# time.sleep(5)
+
+
+    # Д/З №3 - Ще одна функція малювання зірки
+# import turtle
+# import time
+# t = turtle.Pen()
+# def Моя_зірка(промінь, вершин):
+    # кут = 360 / вершин
+    # for x in range(0, вершин):
+        # t.forward(промінь)
+        # t.left(180 - кут)
+        # t.forward(промінь)
+        # t.right(180-(кут * 2))
+# t.color(1, 0.7, 0.7)
+# Моя_зірка(50, 5)
+# time.sleep(5)
