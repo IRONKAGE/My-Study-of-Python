@@ -1002,7 +1002,7 @@
 # shutil.copy("test.txt", "test3.txt")
 
 
-                        # №10 - Корисні модулі в мові Python
+                            # №10 - Корисні модулі в мові Python
 
 
 # import turtle
@@ -1168,7 +1168,7 @@
 # print(Завантажені_дані_улюбленного)
 
 
-                        # №11 - І знову малювання ''ЧЕРЕПАХОЮ''
+                            # №11 - І знову малювання "ЧЕРЕПАХОЮ"
 
 
 # import turtle
@@ -1386,3 +1386,290 @@
 # t.color(1, 0.7, 0.7)
 # Моя_зірка(50, 5)
 # time.sleep(5)
+
+
+                            # №12 - Як покращити графіку з "TKINTER"
+
+
+# from tkinter import *
+# tk = Tk()
+# btn = Button(tk, text = "Клацни мене")
+# btn.pack()
+# import turtle
+# t = turtle.Pen()
+# from turtle import *
+# t = Pen()
+# def Здоров():
+    # print('Здоровенькі були')
+# from tkinter import *
+# tk = Tk()
+# btn = Button(tk, text = "Клацни мене", command=Здоров)
+# btn.pack()
+# input('Натисніть ENTER для виходу')
+
+
+# def Людина(ширина, висота):
+    # print('Моя ширина %s см, моя висота %s см' % (ширина, висота))
+# Людина(50, 180)
+# Людина(висота=180, ширина=50)
+
+# from tkinter import *
+# tk = Tk()
+# canvas = Canvas(tk, width=500, height=500)
+# canvas.pack()
+# input('Натисніть ENTER для виходу')
+
+# from tkinter import *
+# tk = Tk()
+# canvas = Canvas(tk, width=500, height=500)
+# canvas.pack()
+# canvas.create_line(0, 0, 500, 500)
+# import turtle
+# turtle.setup(width=500, height=500)
+# t = turtle.Pen()
+# t.up()
+# t.goto(-250, 250)
+# t.down()
+# t.goto(250, -50)
+# input('Натисніть ENTER для виходу')
+
+# from tkinter import *
+# tk = Tk()
+# canvas = Canvas(tk, width=400, height=400)
+# canvas.pack()
+# canvas.create_rectangle(10, 10, 50, 50)
+# input('Натисніть ENTER для виходу')
+# from tkinter import *
+# tk = Tk()
+# canvas = Canvas(tk, width=400, height=400)
+# canvas.pack()
+# canvas.create_rectangle(10, 10, 300, 50)
+# input('Натисніть ENTER для виходу')
+# from tkinter import *
+# tk = Tk()
+# canvas = Canvas(tk, width=400, height=400)
+# canvas.pack()
+# canvas.create_rectangle(10, 10, 50, 300)
+# input('Натисніть ENTER для виходу')
+
+# from tkinter import *
+# import random
+# tk = Tk()
+# canvas = Canvas(tk, width=400, height=400)
+# canvas.pack()
+# def random_rectangle(width, height):
+    # X1 = random.randrange(width)
+    # Y1 = random.randrange(height)
+    # X2 = X1 + random.randrange(width)
+    # Y2 = Y1 + random.randrange(height)
+    # canvas.create_rectangle(X1, Y1, X2, Y2)
+# random_rectangle(400, 400)
+# for x in range(0, 100):
+    # random_rectangle(400, 400)
+# input('Натисніть ENTER для виходу')
+
+# from tkinter import *
+# import random
+# tk = Tk()
+# canvas = Canvas(tk, width=400, height=400)
+# canvas.pack()
+# def random_rectangle(width, height, fill_color):
+    # X1 = random.randrange(width)
+    # Y1 = random.randrange(height)
+    # X2 = X1 + random.randrange(width)
+    # Y2 = Y1 + random.randrange(height)
+    # canvas.create_rectangle(X1, Y1, X2, Y2, fill=fill_color)
+# random_rectangle(400, 400, 'green')
+# random_rectangle(400, 400, 'red')
+# random_rectangle(400, 400, 'blue')
+# random_rectangle(400, 400, 'orange')
+# random_rectangle(400, 400, 'yellow')
+# random_rectangle(400, 400, 'pink')
+# random_rectangle(400, 400, 'purple')
+# random_rectangle(400, 400, 'violet')
+# random_rectangle(400, 400, 'magenta')
+# random_rectangle(400, 400, 'cyan')
+# random_rectangle(400, 400, '#FFD800')
+# print('%x' % 15)
+# print('%02x' % 15)
+# from tkinter import colorchooser
+# colorchooser.askcolor()
+# c = colorchooser.askcolor()
+# random_rectangle(400, 400, c[1])
+# input('Натисніть ENTER для виходу')
+
+# from tkinter import *
+# tk = Tk()
+# canvas = Canvas(tk, width=400, height=400)
+# canvas.pack()
+# canvas.create_arc(10, 20, 200, 100, extent=180, style=ARC)
+# canvas.create_arc(10, 20, 200, 100, extent=180, style=CHORD)
+# canvas.create_arc(10, 20, 200, 100, extent=180, style=PIESLICE)
+# canvas.create_arc(10, 20, 200, 80, extent=45, style=ARC)
+# canvas.create_arc(10, 80, 200, 160, extent=90, style=ARC)
+# canvas.create_arc(10, 160, 200, 240, extent=135, style=ARC)
+# canvas.create_arc(10, 240, 200, 320, extent=180, style=ARC)
+# canvas.create_arc(10, 320, 200, 400, extent=359, style=ARC)
+# input('Натисніть ENTER для виходу')
+
+# from tkinter import *
+# tk = Tk()
+# canvas = Canvas(tk, width=400, height=400)
+# canvas.pack()
+# canvas.create_polygon(10, 10, 100, 10, 100, 110, fill="", outline="black")
+# canvas.create_polygon(200, 10, 240, 30, 120, 100, 140, 120, fill="", outline="black")
+# input('Натисніть ENTER для виходу')
+
+# from tkinter import *
+# tk = Tk()
+# canvas = Canvas(tk, width=400, height=400)
+# canvas.pack()
+# canvas.create_text(150, 100, text='Жив собі хлопець у Молдові,')
+# canvas.create_text(130, 120, text='Катався кругом на корові,', fill='red')
+# canvas.create_text(150, 150, text='Така-от, каже, біда,', font=('Times', 15))
+# canvas.create_text(200, 200, text='І зовсім вона не одна:', font=('Helvetica', 20))
+# canvas.create_text(220, 250, text='Тата возять', font=('Courier', 22))
+# canvas.create_text(220, 300, text='дві курки здорові!', font=('Courier', 26))
+# input('Натисніть ENTER для виходу')
+
+# from tkinter import *
+# tk = Tk()
+# canvas = Canvas(tk, width=400, height=400)
+# canvas.pack()
+# My_image = PhotoImage(file='demo.gif')
+# canvas.create_image(0, 0, anchor=NW, image=My_image)
+# input('Натисніть ENTER для виходу')
+
+# import time
+# from tkinter import *
+# tk = Tk()
+# canvas = Canvas(tk, width=400, height=200)
+# canvas.pack()
+# canvas.create_polygon(10, 10, 10, 60, 50, 35)
+# for x in range(0, 60):
+    # canvas.move(1, 5, 0)
+    # tk.update()
+    # time.sleep(0.05)
+# input('Натисніть ENTER для виходу')
+# import time
+# from tkinter import *
+# tk = Tk()
+# canvas = Canvas(tk, width=400, height=400)
+# canvas.pack()
+# canvas.create_polygon(10, 10, 10, 60, 50, 35)
+# for x in range(0, 60):
+    # canvas.move(1, 5, 5)
+    # tk.update()
+    # time.sleep(0.05)
+# for x in range(0, 60):
+    # canvas.move(1, -5, -5)
+    # tk.update()
+    # time.sleep(0.05)
+# input('Натисніть ENTER для виходу')
+
+# from tkinter import *
+# tk = Tk()
+# canvas = Canvas(tk, width=700, height=400)
+# canvas.pack()
+# canvas.create_polygon(10, 10, 10, 60, 50, 35)
+# def move_triangle(event):
+    # canvas.move(1, 5, 0)
+    # if event.keysym == 'Up':
+        # canvas.move(1, 0, -3)
+    # elif event.keysym == 'Down':
+        # canvas.move(1, 0, 3)
+    # elif event.keysym == 'Left':
+        # canvas.move(1, -3, 0)
+    # else:
+        # canvas.move(1, 3, 0)
+# canvas.bind_all('<KeyPress-Return>', move_triangle)
+# canvas.bind_all('<KeyPress-Up>', move_triangle)
+# canvas.bind_all('<KeyPress-Down>', move_triangle)
+# canvas.bind_all('<KeyPress-Left>', move_triangle)
+# canvas.bind_all('<KeyPress-Right>', move_triangle)
+# input('Натисніть ENTER для виходу')
+
+# from tkinter import *
+# tk = Tk()
+# canvas = Canvas(tk, width=700, height=400)
+# canvas.pack()
+# canvas.create_polygon(10, 10, 10, 60, 50, 35)
+# canvas.move(1, 5, 0)
+# My_triangle = canvas.create_polygon(10, 10, 10, 60, 50, 35, fill='red')
+# canvas.move(My_triangle, 5, 0)
+# canvas.itemconfig(My_triangle, fill='blue')
+# canvas.itemconfig(My_triangle, outline='red')
+# input('Натисніть ENTER для виходу')
+
+
+    # Д/З №1 - Заповнити екран трикутниками
+# from tkinter import *
+# import random
+# tk = Tk()
+# canvas = Canvas(tk, width=400, height=400)
+# canvas.pack()
+# colors = ['red', 'blue', 'yellow', 'pink', 'green', 'orange', 'black', 'white']
+# def random_triangle(width, height):
+    # X1 = random.randrange(width)
+    # Y1 = random.randrange(height)
+    # Z1 = random.randrange(width)
+    # X2 = random.randrange(width)
+    # Y2 = random.randrange(height)
+    # Z2 = random.randrange(height)
+    # color = random.choice(colors)
+    # canvas.create_polygon(X1, Y1, Z1, X2, Y2, Z2, fill=color, outline='black')
+# for x in range(0, 100):
+    # random_triangle(400, 400)
+# input('Натисніть ENTER для виходу')
+
+
+    # Д/З №2 - Трикутник, який рухається
+# import time
+# from tkinter import *
+# tk = Tk()
+# canvas = Canvas(tk, width=400, height=400)
+# canvas.pack()
+# canvas.create_polygon(10, 10, 10, 60, 50, 35)
+# for x in range(0, 60):
+    # canvas.move(1, 5, 0)
+    # tk.update()
+    # time.sleep(0.05)
+# for x in range(0, 60):
+    # canvas.move(1, 0, 5)
+    # tk.update()
+    # time.sleep(0.05)
+# for x in range(0, 60):
+    # canvas.move(1, -5, 0)
+    # tk.update()
+    # time.sleep(0.05)
+# for x in range(0, 60):
+    # canvas.move(1, 0, -5)
+    # tk.update()
+    # time.sleep(0.05)
+# input('Натисніть ENTER для виходу')
+
+    # Д/З №3 - Фото, яке рухається
+# import time
+# from tkinter import *
+# tk = Tk()
+# canvas = Canvas(tk, width=800, height=650)
+# canvas.pack()
+# My_image = PhotoImage(file='demo.gif')
+# canvas.create_image(300, 300, anchor=NW, image=My_image)
+# for x in range(0, 60):
+    # canvas.move(1, -5, 0)
+    # tk.update()
+    # time.sleep(0.05)
+# for x in range(0, 60):
+    # canvas.move(1, 0, -5)
+    # tk.update()
+    # time.sleep(0.05)
+# for x in range(0, 60):
+    # canvas.move(1, 5, 0)
+    # tk.update()
+    # time.sleep(0.05)
+# for x in range(0, 60):
+    # canvas.move(1, 0, 5)
+    # tk.update()
+    # time.sleep(0.05)
+# input('Натисніть ENTER для виходу')
